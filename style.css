@@ -173,3 +173,22 @@ lip {
         top: 50%
     }
 }
+
+@media (max-width: 1000px) {
+    eyes {
+        left: 35%;
+    }
+
+    eyes:nth-of-type(2) {
+        left: 65%;
+    }
+}
+@media (max-width: 650px) {
+    eyes {
+        left: 30%;
+    }
+
+    eyes:nth-of-type(2) {
+        left: 70%;
+    }
+}
